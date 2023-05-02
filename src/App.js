@@ -1,4 +1,5 @@
-import './App.css';
+import './style/style.css';
+
 import Header from './modules/header/Header';
 import Nav from './modules/nav/Nav';
 
