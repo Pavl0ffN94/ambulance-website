@@ -26,7 +26,13 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 10px;
+  gap: 30px;
   align-items: center;
+}
+
+.nav-list__item {
+  color: #000;
+
   column-gap: 48px;
   font-style: normal;
   font-family: 'Lato', sans-serif;
@@ -35,11 +41,7 @@
   line-height: 30px;
 }
 
-.nav-list__link:hover {
-  opacity: 0.8;
-}
-
-.nav__text {
+.nav_text {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
