@@ -5,14 +5,18 @@ import Nav from './modules/nav/Nav';
 import ActionsList from './modules/actions-list/ActionsList';
 import Footer from './modules/footer/Footer';
 import Equipment from './modules/equipment/Equipment';
+import PersonList from './modules/personList/PersonList';
+import Consultation from './modules/consultation/Сonsultation';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       {/*  <Header /> */}
-      <ActionsList />
+      {/* <ActionsList /> */}
       {/*  <Equipment /> */}
+      {/*  <PersonList /> */}
+      <Consultation />
       <Footer />
     </div>
   );
