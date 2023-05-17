@@ -7,16 +7,18 @@ import Footer from './modules/footer/Footer';
 import Equipment from './modules/equipment/Equipment';
 import PersonList from './modules/personList/PersonList';
 import Consultation from './modules/consultation/Сonsultation';
+import PriceList from './modules/priseList/PriceList';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Header />
+      {/*      <Header />
       <ActionsList />
       <Equipment />
       <PersonList />
-      <Consultation />
+      <Consultation /> */}
+      <PriceList />
       <Footer />
     </div>
   );

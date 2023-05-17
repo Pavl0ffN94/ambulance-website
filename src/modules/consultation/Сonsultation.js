@@ -8,13 +8,13 @@ const Consultation = () => {
 
       <div className="consultation_content">
         <img src={consDok} alt="consultation-doctor" className="consultation_img" />
-        <h2 className="content_title">Получить бесплатную консультацию</h2>
+        <h2 className="content_title">Отправьте ваш отзыв</h2>
         <p className="constnt_text">
-          Наши специалисты прокансультируют вас по любым вопросам
+          Мы постоянно работаем над улучшением нашего сервиса
         </p>
         <form className="form">
-          <a placeholder="Имя" className="content_form" />
-          <a placeholder="Номер телефона" className="content_form" />
+          <a href="!#" placeholder="Имя" className="content_form" />
+          <a href="!#" placeholder="Номер телефона" className="content_form" />
           <button type="submit" className="content_btn">
             Отправить
           </button>
