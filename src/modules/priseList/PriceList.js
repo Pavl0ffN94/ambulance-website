@@ -6,7 +6,7 @@ const PriceList = () => {
   return pricelistArr.map(list => {
     return (
       <PriceCard key={list.id} title={list.title}>
-        {list.children1},{list.children2}
+        {list.children1}, <br /> <br /> {(list.children2 = '')}
       </PriceCard>
     );
   });

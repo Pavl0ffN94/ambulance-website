@@ -21,7 +21,7 @@ const PriceCard = props => {
             animate={{height: 'auto', opacity: 1}}
             exit={{height: 0, opacity: 0}}
             style={{overflow: 'hidden'}}
-            transition={{duration: 0.5}}>
+            transition={{duration: 0.3}}>
             <div className="div_vivble">{children}</div>
           </motion.div>
         )}
