@@ -3,13 +3,17 @@ import PriceCard from '../priceCard/PriceCard';
 import {pricelistArr} from './../helpers/priceList.js';
 
 const PriceList = () => {
-  return pricelistArr.map(list => {
-    return (
-      <PriceCard key={list.id} title={list.title}>
-        {list.children1}, <br /> <br /> {(list.children2 = '')}
-      </PriceCard>
-    );
-  });
+    return ( 
+  <div className='person_list-wrapper'>
+   { pricelistArr.map(list => {
+      return (
+        <PriceCard key={list.id} title={list.title}>
+          {list.children1}, <br /> <br /> {list.children2 = ''}
+        </PriceCard>
+      )}
+    )}
+     </div>)
+  
 };
 
 export default PriceList;
