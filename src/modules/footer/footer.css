@@ -3,20 +3,22 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #000;
   padding: 20px;
+  margin-top: 30px;
 }
 
-.footer_logo {
-  width: 115px;
-  height: 70px;
-}
-
-.footer_contacts {
+.contacts {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: center;
   color: #fff;
+  row-gap: 30px;
+  gap: 30px;
 }
 
 li {
@@ -25,5 +27,18 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 1.2em;
+}
+
+.additional_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5em;
 }

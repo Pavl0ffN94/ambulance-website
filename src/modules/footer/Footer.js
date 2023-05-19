@@ -5,11 +5,11 @@ import './footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer_logo">
-        <img src={logo} alt="logo" className="footer_logo" />
+      <div className="logo">
+        <img src={logo} alt="ambulance car" />
       </div>
       <div className="footer_contacts">
-        <ul>
+        <ul className="contacts">
           <li>Главная</li>
           <li>Услуги</li>
           <li>Оборудование</li>
@@ -17,7 +17,11 @@ const Footer = () => {
           <li>Пациентам</li>
         </ul>
       </div>
-      <Button />
+      <div className="additional_phone">
+        <p className="phone">
+          Доп номер <br /> +7 (846) 991-03-03
+        </p>
+      </div>
     </footer>
   );
 };
