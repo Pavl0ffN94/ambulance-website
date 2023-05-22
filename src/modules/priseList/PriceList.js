@@ -8,7 +8,18 @@ const PriceList = () => {
    { pricelistArr.map(list => {
       return (
         <PriceCard key={list.id} title={list.title}>
-          {list.children1}, <br /> <br /> {list.children2 = ''}
+          <div className='text_1' > 
+          {list.children1}
+          <strong>  
+          {list.cost1}
+          </strong>
+          </div>
+          <div className='text_2' > 
+           {list.children2}
+           <strong>  
+          {list.cost2 }
+           </strong>
+          </div>
         </PriceCard>
       )}
     )}

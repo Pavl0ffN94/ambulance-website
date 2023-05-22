@@ -1,0 +1,18 @@
+.contacts_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.org_info {
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+}

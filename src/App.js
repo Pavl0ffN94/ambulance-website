@@ -8,17 +8,19 @@ import Equipment from './modules/equipment/Equipment';
 import PersonList from './modules/personList/PersonList';
 import Consultation from './modules/consultation/Сonsultation';
 import PriceList from './modules/priseList/PriceList';
+import Contacts from './modules/contacts/Contacts';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Nav />
-    {/*   <Header /> */}
-    {/*   <ActionsList /> */}
-{/*       <Equipment /> */}
-   {/*    <PersonList /> */}
-  {/*     <Consultation />  */}
-      <PriceList />
+      {/* {  <Header />} */}
+      {/* <ActionsList /> */}
+      {/* <Equipment /> */}
+      {/* <PersonList /> */}
+      <Contacts />
+      {/* <Consultation /> */}
+      {/*  <PriceList /> */}
       <Footer />
     </div>
   );
