@@ -5,12 +5,12 @@ import ekg from './../../img/ekg.svg';
 
 const Equipment = () => {
   return (
-    <div className="content">
-      <h1> Наше оборудование</h1>
-      <h2>Наш автопарк</h2>
-      <div className="car-park">
-        <img src={car} alt="ambulance-auto" />
-        <p className="equipment_text">
+    <div className='content-equip'>
+      <h1 className='title'> Наше оборудование</h1>
+      <h2 className='title_2'>Наш автопарк</h2>
+      <div className='car-park'>
+        <img src={car} alt='ambulance-auto' />
+        <p className='equipment_text'>
           Наш автопарк скорой помощи состоит из машин, которые прошли тщательную проверку
           перед каждым выездом и оборудованны всем необходимым для оказания скорой помощи.
           <br />
@@ -18,18 +18,18 @@ const Equipment = () => {
           в любое время суток.
         </p>
       </div>
-      <h2>Оснащение бригады СП</h2>
-      <div className="brigade">
-        <p className="equipment_text">
+      <h2 className='title_2'>Оснащение бригады СП</h2>
+      <div className='brigade'>
+        <p className='equipment_text'>
           Когда вы обращаетесь к нам за скорой помощью, Вы можете быть уверенны, что наша
           команда имеет все необходимое для окозания помощи. Мы оснащены передовыми
           приборами и инструментами для более точной диагностики и лечения, а также
           медикаментами и оборудованием для обеспечения максимальной эффективности и
           комфорта в экстренной ситуациию
         </p>
-        <img src={car} alt="ambulance-auto" />
+        <img src={car} alt='ambulance-auto' />
       </div>
-      <img className="ekg" src={ekg} alt="ekg" />
+      <img className='ekg' src={ekg} alt='ekg' />
     </div>
   );
 };

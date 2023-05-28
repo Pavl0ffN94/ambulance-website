@@ -41,6 +41,15 @@
   line-height: 30px;
 }
 
+.nav-list__item:hover {
+  scale: 1.1;
+  transition: 0.3s all ease-in;
+  background-color: #205c51;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  color: #fff;
+}
+
 .nav_text {
   text-align: center;
   font-weight: 400;

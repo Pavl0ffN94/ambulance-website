@@ -1,3 +1,7 @@
+.item_text {
+  padding: 5px;
+}
+
 .item_number-1 {
   display: flex;
   align-items: center;

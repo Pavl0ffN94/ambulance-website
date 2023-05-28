@@ -1,10 +1,11 @@
-.content {
+.content-equip {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .car-park {
@@ -35,15 +36,16 @@
   line-height: 1.2em;
 }
 
-h1 {
+.title {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 68px;
+  margin-bottom: 2rem;
 }
 
-h2 {
+.title_2 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;

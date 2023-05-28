@@ -1,16 +1,16 @@
-.person_list-wrapper{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    background-image: url(./../../img/ekg.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+.person_list-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  background-image: url(./../../img/ekg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-strong{
-    margin-left: 10px;
+strong {
+  margin-left: 10px;
 }
