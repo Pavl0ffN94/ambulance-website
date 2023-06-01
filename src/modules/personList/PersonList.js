@@ -1,32 +1,37 @@
 import Person from '../person/Person';
 import './personList.css';
 import {personArr} from '../helpers/personList';
-import {useState} from 'react';
+import {useState, useEffect, useRef} from 'react';
+import {motion} from 'framer-motion';
 
 const PersonList = () => {
-  const [page, setPage] = useState(1);
-  const pageSize = 3;
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
+
+  useEffect(() => {
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  }, []);
 
   return (
-    <div className='list_wrapper'>
-      {personArr.slice((page - 1) * pageSize, pageSize * page).map((el, i) => {
-        return <Person key={i} name={el.name} post={el.post} img={el.img} exp={el.exp} />;
-      })}
-      <div className='list_arrow'>
-        <button
-          className='list_btn'
-          disabled={page <= 1}
-          onClick={() => setPage(prev => prev - 1)}>
-          Назад
-        </button>
-        <button
-          className='list_btn'
-          disabled={personArr.length / pageSize <= page}
-          onClick={() => setPage(prev => prev + 1)}>
-          Вперед
-        </button>
-      </div>
-    </div>
+    <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}}>
+      <motion.div
+        drag='x'
+        dragConstraints={{right: 0, left: -width}}
+        className='inner_carousel'>
+        {personArr.map((person, index) => {
+          return (
+            <motion.div className='item' key={index}>
+              <Person
+                name={person.name}
+                img={person.img}
+                exp={person.post}
+                post={person.exp}
+              />
+            </motion.div>
+          );
+        })}
+      </motion.div>
+    </motion.div>
   );
 };
 

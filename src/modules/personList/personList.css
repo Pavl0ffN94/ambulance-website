@@ -1,39 +1,20 @@
-.list_wrapper {
-  max-height: 650px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  row-gap: 17px;
-  gap: 17px;
+.carousel {
+  cursor: grab;
   overflow: hidden;
-  margin-bottom: 10px;
 }
 
-.list_arrow{
+.inner_carousel {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+}
+
+.item {
+  min-height: 40rem;
+  width: 30rem;
+  padding: 10px;
+  pointer-events: none;
+}
+.item img {
   width: 100%;
-
-}
-
-.list_btn{
-  cursor: pointer;
-  color: #000;
-  background-color:#3ca893;
-  text-align: center;
+  height: 100%;
   border-radius: 10px;
-  padding: 7px 31px;
-  transition: 0.3s all ease-in;
-}
-
-.list_btn:hover {
-  background-color: #205c51;
-}
-.list_btn:active {
-  position: relative;
-  top: 3px;
 }
