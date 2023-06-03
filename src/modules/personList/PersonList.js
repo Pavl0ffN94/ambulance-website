@@ -9,6 +9,8 @@ const PersonList = () => {
   const carousel = useRef();
 
   useEffect(() => {
+    console.log(carousel);
+
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 
@@ -18,9 +20,9 @@ const PersonList = () => {
         drag='x'
         dragConstraints={{right: 0, left: -width}}
         className='inner_carousel'>
-        {personArr.map((person, index) => {
+        {personArr.map(person => {
           return (
-            <motion.div className='item' key={index}>
+            <motion.div className='item' key={person.id}>
               <Person
                 name={person.name}
                 img={person.img}
