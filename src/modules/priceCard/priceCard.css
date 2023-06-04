@@ -1,0 +1,38 @@
+
+
+.btn_click {
+  background-color: #099178c9;
+  padding: 0.8rem;
+  border: 1px solid black;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3rem;
+  color: #000000;
+  height: 60px;
+  width: 600px;
+  border-radius: 30px;
+}
+
+.btn_click:hover{
+  background-color: #09d6ad;
+  transition: 0.5s; 
+  scale: 1.05;
+}
+
+.div_visible {
+  text-align: center;
+  background-color: #E0F1D9;
+  padding: 0.8rem;
+  border: 1px solid black;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3rem;
+  color: #000000;
+  max-height: 300px;
+  width: 600px;
+  border-radius: 30px;
+}
