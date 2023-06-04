@@ -1,6 +1,6 @@
 import Person from '../person/Person';
 import './personList.css';
-import {personArr} from '../helpers/personList';
+import {personArr} from '../helpers/person/personList';
 import {useState, useEffect, useRef} from 'react';
 import {motion} from 'framer-motion';
 
@@ -9,8 +9,6 @@ const PersonList = () => {
   const carousel = useRef();
 
   useEffect(() => {
-    console.log(carousel);
-
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 

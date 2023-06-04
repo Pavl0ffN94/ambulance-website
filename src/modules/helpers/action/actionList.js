@@ -1,8 +1,8 @@
-import siren from './../../img/siren.svg';
-import doc from './../../img/doc.svg';
-import treatment from './../../img/treatment.svg';
-import therapy from './../../img/therapy.svg';
-import consultation from './../../img/consultation.svg';
+import siren from './siren.svg';
+import doc from './doc.svg';
+import treatment from './treatment.svg';
+import therapy from './therapy.svg';
+import consultation from './consultation.svg';
 
 const action = [
   {

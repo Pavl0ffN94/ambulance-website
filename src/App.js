@@ -17,15 +17,15 @@ function App() {
       <Router>
         <Nav />
 
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Header />} />
           <Route path='/PriceList' element={<PriceList />} />
           <Route path='/Equipment' element={<Equipment />} />
           <Route path='/PersonList' element={<PersonList />} />
           <Route path='/Contacts' element={<Contacts />} />
           <Route path='/Consultation' element={<Consultation />} />
-        </Routes>
-        {/* <ArticleList /> */}
+        </Routes> */}
+        <ArticleList />
         <Footer />
       </Router>
     </div>

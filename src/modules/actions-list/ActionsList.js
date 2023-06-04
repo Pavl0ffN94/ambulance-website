@@ -1,13 +1,13 @@
 import './actions-list.css';
 
 import Action from '../action/Action';
-import {action} from '../helpers/actionList.js';
+import {action} from './../helpers/action/actionList.js';
 
 const ActionList = () => {
   return (
-    <div className="service">
-      <h2 className="service_text"> Наши действия после вашего вывозва </h2>
-      <div className="service_content">
+    <div className='service'>
+      <h2 className='service_text'> Наши действия после вашего вывозва </h2>
+      <div className='service_content'>
         {action.map((action, index) => {
           return (
             <Action

@@ -1,4 +1,4 @@
-import natB from './../../img/natB.jpg';
+import natB from './natB.jpg';
 
 const personArr = [
   {
