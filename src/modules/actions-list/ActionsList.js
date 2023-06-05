@@ -6,7 +6,7 @@ import {action} from './../helpers/action/actionList.js';
 const ActionList = () => {
   return (
     <div className='service'>
-      <h2 className='service_text'> Наши действия после вашего вывозва </h2>
+      <h2 className='service_text'> Наши действия после вашего звонка </h2>
       <div className='service_content'>
         {action.map((action, index) => {
           return (
