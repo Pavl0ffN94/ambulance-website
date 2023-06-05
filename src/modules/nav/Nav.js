@@ -31,15 +31,9 @@ const Nav = () => {
             </NavLink>
 
             <NavLink to='./Consultation'>
-              <li className='nav-list__item'>Отзыв</li>
+              <li className='nav-list__item'> Оставить отзыв</li>
             </NavLink>
           </ul>
-          <div className='nav_text'>
-            <h2>
-              <strong>+7(846)333-0-333</strong>
-            </h2>
-            <p>Телефон скорой помощи</p>
-          </div>
         </div>
       </div>
     </nav>

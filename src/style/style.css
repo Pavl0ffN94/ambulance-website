@@ -9,17 +9,18 @@ font-family: 'Open Sans', sans-serif; */
   min-height: 100vh;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-
-  min-height: 100vh;
-}
-
-body {
-  min-height: 100vh;
+html body {
+  min-height: 100%;
   max-width: 1200px;
   margin: 0 auto;
-
   background-color: #fff;
+}
+
+@media (max-with: 760px) {
+  .phone_big_v {
+    display: none;
+  }
+  .min {
+    display: block;
+  }
 }

@@ -23,7 +23,18 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <Button />
+          <div className='btn_phone min'>
+            <Button />
+          </div>
+          <div className='phone_big_v max'>
+            <h2>
+              <strong>+7(846)333-0-333</strong>
+              <br />
+              <strong>+7(846)991-03-03</strong>
+            </h2>
+            <br />
+            <p>Телефоны скорой помощи</p>
+          </div>
         </div>
 
         <img className='header_img' src={medHeader} alt='header med' />
