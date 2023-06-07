@@ -21,11 +21,15 @@
   gap: 30px;
 }
 
-li {
+.foter_link {
   color: #fff;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2em;
+}
+
+.foter_link:hover {
+  cursor: pointer;
 }

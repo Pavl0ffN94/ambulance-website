@@ -9,7 +9,7 @@ import PersonList from './modules/personList/PersonList';
 import Consultation from './modules/consultation/Сonsultation';
 import PriceList from './modules/priseList/PriceList';
 import Contacts from './modules/contacts/Contacts';
-import ArticleList from './modules/article/ArticleList';
+import Licinse from './modules/license/Licinse';
 
 function App() {
   return (
@@ -17,15 +17,15 @@ function App() {
       <Router>
         <Nav />
 
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Header />} />
           <Route path='/PriceList' element={<PriceList />} />
           <Route path='/Equipment' element={<Equipment />} />
           <Route path='/PersonList' element={<PersonList />} />
           <Route path='/Contacts' element={<Contacts />} />
           <Route path='/Consultation' element={<Consultation />} />
-        </Routes>
-        {/* <ArticleList /> */}
+        </Routes> */}
+        <Licinse />
         <Footer />
       </Router>
     </div>

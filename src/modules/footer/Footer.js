@@ -1,3 +1,4 @@
+import {NavLink} from 'react-router-dom';
 import logo from './../../img/logo.svg';
 import './footer.css';
 
@@ -9,11 +10,21 @@ const Footer = () => {
       </div>
       <div className='footer_contacts'>
         <ul className='contacts'>
-          <li>Главная</li>
-          <li>Услуги</li>
-          <li>Оборудование</li>
-          <li>Специалист</li>
-          <li>Пациентам</li>
+          <NavLink to='/'>
+            <li className='foter_link'>Главная</li>
+          </NavLink>
+
+          <NavLink to='./PriceList'>
+            <li className='foter_link'>Услуги</li>
+          </NavLink>
+
+          <NavLink to='/Contacts'>
+            <li className='foter_link'>Контакты</li>
+          </NavLink>
+
+          <NavLink to='/Contacts'>
+            <li className='foter_link'>Лицензия</li>
+          </NavLink>
         </ul>
       </div>
     </footer>
